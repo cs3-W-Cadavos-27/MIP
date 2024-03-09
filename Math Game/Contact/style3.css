@@ -11,7 +11,7 @@
 
 body{
     height: 100vh;
-    
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -66,7 +66,7 @@ body{
     padding: 0 2rem;
 }
 
-.form input, 
+.form input,
 .form textarea{
     width: 100%;
     padding: 1rem;
@@ -77,8 +77,8 @@ body{
     font-size: 1rem;
 }
 
-.form input:not(:first-child), 
-.form textarea, 
+.form input:not(:first-child),
+.form textarea,
 .form button{
     margin-top:.8rem;
 }
@@ -95,3 +95,33 @@ body{
     border-radius: 2rem;
     border: none;
 }
+
+.navbar {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 10%;
+    background-color: black;
+    color: white;
+    display: flex;
+  }
+
+  .navbar a {
+
+    font-size: 30px;
+    margin: 0 20px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+  
+  }
+
+  .navbar a:first-child {
+    margin-right: auto;
+  }
+
+  .navbar a:hover {
+    background-color: #C0009A;
+  }
