@@ -135,11 +135,11 @@ body.active { overflow-y: hidden; }
 /* Webfont: Refault-Italic */
 @font-face {
     font-family: 'Refault';
-    src: url('./REFAULT.eot'); /* IE9 Compat Modes */
-    src: url('./REFAULT.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('./REFAULT.woff') format('woff'), /* Modern Browsers */
-         url('./REFAULT.woff2') format('woff2'), /* Modern Browsers */
-         url('./REFAULT.ttf') format('truetype'); /* Safari, Android, iOS */
+    src: url('./Main%20Page/REFAULT.eot'); /* IE9 Compat Modes */
+    src: url('./Main%20Page/REFAULT.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('./Main%20Page/REFAULT.woff') format('woff'), /* Modern Browsers */
+         url('./Main%20Page/REFAULT.woff2') format('woff2'), /* Modern Browsers */
+         url('./Main%20Page/REFAULT.ttf') format('truetype'); /* Safari, Android, iOS */
     font-style: italic;
     font-weight: normal;
     text-rendering: optimizeLegibility;
@@ -537,7 +537,7 @@ body.active { overflow-y: hidden; }
 .newsletter { padding: var(--section-padding) 0 120px; }
 
 .newsletter-card {
-  background: url("../Main%20Page/newsletter-bg.jpg") no-repeat;
+  background: url("./Main%20Page/newsletter-bg.jpg") no-repeat;
   background-size: cover;
   background-position: center;
   padding: 50px 25px;
@@ -586,7 +586,7 @@ body.active { overflow-y: hidden; }
 \*-----------------------------------*/
 
 .footer-top {
-  background: url("../Main%20Page/footer-bg.jpg") no-repeat;
+  background: url("./Main%20Page/footer-bg.jpg") no-repeat;
   background-size: cover;
   background-position: center;
   padding: var(--section-padding) 0;
